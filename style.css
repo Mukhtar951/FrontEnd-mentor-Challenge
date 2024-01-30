@@ -1,0 +1,66 @@
+html {
+    background-color:  hsl(30, 54%, 90%);
+}
+
+.container {
+    padding:20px;
+    margin: 35px;
+    background-color:white;
+    line-height: 25px;
+    margin: 20px auto;
+    width:50%;
+}
+.time {
+    width: 90%;
+    height: auto;
+    padding: 15px;
+    margin: 15px;
+    background-color: hsl(330, 100%, 98%);
+}
+h1 {
+    font-family:'Young Serif'
+}
+h3,h4 {
+    color: hsl(332, 51%, 32%);
+    font-family: 'Outfit';
+    font-weight: 700;
+}
+p {
+    font-family: 'Outfit';
+}
+strong {
+    font-weight: 600;
+}
+.ingrediants {
+    background-color:whitesmoke;
+}
+.instructions {
+    padding-top: 27px;
+    line-height: 1.8;
+}
+
+li::marker{
+    color: hsl(332, 51%, 32%);
+}
+.item, .item-2 {
+    display: inline-block;
+}
+
+.item-2 {
+    text-align: right;
+    justify-content: center;
+    color: hsl(332, 51%, 32%);
+}
+.calories {
+    padding-left: 110px;
+    display: inline-block;
+}
+.carbs {
+    padding-left: 158px;
+}
+.protein {
+    padding-left: 145px;
+}
+.fat {
+    padding-left: 168px;
+}
